@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+	
+	<!-- ARCHIVOS CSS BOOTSTRAP 4 -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- ARCHIVOS CSS PERSONALIZADOS -->
+	<link type="text/css" rel="stylesheet" href="css/estilos.css">
+	
+	<title>Radio Xochimilco</title>
+</head>
+<body>
+
+	<header >
+		<div id="logo" class="container-fluid mb-2 rounded">
+			<div class="row">
+				<div class="col-12">
+					<img class="img-fluid  d-flex m-auto m-0" src="img/portada.PNG">
+				</div>
+			</div>
+		</div>
+	</header>
+
+		
+		<!-- menu -->
+	<nav id="menu" class="container servicios">
+		<ul class="d-flex justify-content-center justify-content-md-around p-1 rounded font-weight-bold">
+			<li><div class="item2 p-2"><a href="#podcast">Podcast</a></div></li>
+			<li><div class="item3 p-2"><a href="#programas">Programas Radio</a></div></li>
+			<li><div class="item4 p-2"><a href="#contacto">Contacto</a></div></li>
+			<li><div class="item4 p-2"><a id="modalSesion" href="#" data-toggle="modal" data-target="#ventanaModal">Iniciar sesion</a></div></li>
+			<li><div class="item4 p-2"><a id="cerrarSesion" href="#" style="display: none;">Cerrar Sesión</a></div></li>
+		</ul>
+  	</nav>
+
+  	<div class="container">
+  		<div id="root"></div>
+  		<div class="row">
+  			<div id="bienvenido" class="col-12"></div>
+  			<div id="name" class="col-12"></div>
+  		</div>
+  	</div>
+
+  	<article>
+  		<!-- videos de youtube -->
+  		<section class="container my-1 my-md-3 p-3 rounded">
+  			<div class="row">
+				<div class="col-12 col-md-6 text-center align-self-md-center ">
+        			<p class="h2 text-center text-uppercase font-weight-bold">siguenos en nuestro canal de youtube!</p>
+        			<p>Empresa creadora de contenido informativo, cultural, deportivo y de entretenimiento, apto para todo publico.
+						Radio Xochimilco creado para ti, sin fines políticos.
+						Música, Cultura, Entrevistas,Eventos Sociales y más
+						Conoce Xochimilco y lo que pasa en el.</p>
+  					<button id="btnYouTube" type="button" class="btn btn-primary btn-lg d-flex m-auto m-0"
+  					onclick="location.href='https://www.youtube.com/channel/UCyUwjZ5-TzFA2E0_BldOqbg'">YouTube</button>	
+      			</div>
+  				<div class="col-12 col-md-6 align-self-md-center">
+					<div class="embed-responsive embed-responsive-16by9">
+					  <iframe class="embed-responsive-item p-1 p-lg-3" 
+					  	src="https://www.youtube.com/embed/Vxr7z_CHsFY" allowfullscreen>	  		
+					  </iframe>
+					</div>
+  				</div>
+  			</div>
+  		</section>
+
+  		<!-- eslogan -->
+  		<section class="eslogan container-fluid p-4 mt-md-2">
+  			<div class="containerEslogan container rounded">
+	  			<div class="row">
+	  				<div class="col-12 h1 text-center text-uppercase font-weight-bold pt-sm-1 pt-md-2 pt-lg-3">
+	  					haciendo radio de una manera diferente
+	  				</div>
+	  			</div>
+	  			<div class="row">
+	  				<div class="col-12">
+	  					<img class="img-fluid rounded-circle d-flex m-auto m-0 pt-sm-1 pt-md-2 pt-lg-3" 
+	  					src="img/logo.PNG">
+	  				</div>
+	  			</div>
+  			</div>
+  		</section>	
+<br>
+  		<!-- podcast -->
+  		<section id="podcast" class="container rounded">
+  			<div class="col-12 display-4 text-center text-uppercase pt-3">podcast</div>	
+  				<div class="row p-4" id="pod">
+		  			<div class="col-12 d-flex justify-content-center mb-3">
+		  				<audio src="multimedia/audio.mp3" controls ></audio>
+		  			</div>
+		  			<div class="col-12 d-flex justify-content-center mb-3">
+		  				<audio src="multimedia/audio1.mp3" controls></audio>
+		  			</div>
+		  			<div class="col-12 d-flex justify-content-center">
+		  				<audio src="multimedia/audio2.mp3" controls></audio>
+		  			</div>
+		  		</div>
+  		</section>
+
+  		<!-- programas -->
+  		<section class="container mt-4 pt-3">
+  			<div class="row">
+  				<div class="col-12 h1 text-center text-uppercase" id="programas">escuchanos en vivo</div>
+  			</div>
+  		</section>
+  		<section class="programas container-fluid ">
+  			<div class="containerProgramas container p-4">
+  				<div class="row">
+  					<div class="col-12 col-md-4">
+  						<img class="rounded img-fluid  d-flex m-auto m-0" src="img/3.PNG">
+  					</div>
+  					<div class="col-12 col-md-4">
+  						<img class="rounded img-fluid d-flex m-auto m-0" src="img/4.PNG">
+  					</div>
+  					<div class="col-12 col-md-4">
+  						<img class="rounded img-fluid d-flex m-auto m-0" src="img/5.PNG">
+  					</div>
+  				</div>
+  			</div>
+  		</section>
+  	</article>
+<br>
+	<!-- contacto -->
+  	<aside class="container rounded-circle">
+  		<p id="contacto" class="text-center text-uppercase font-weight-bold pt-4 display-4">contacto</p>
+  		<div class="row">
+  			<div class="col-12">
+  				<button id="btnCorreo" type="button" class="btn btn-info btn-lg d-flex m-auto m-0">
+  					<a href="mailto:radioxochimilco@hotmail.com">radioxochimilco@hotmail.com</a>
+  				</button>
+  				<p class="text-center">Teléfono: (+52) 5586201479</p>
+  			</div>
+  		</div>
+  			
+  		<div class="container d-flex justify-content-center rounded-circle">
+			<div class="row" >
+				<div class="col-4">	
+	  				<a href="https://www.facebook.com/radioxochimilco/">
+	 					<img id="facebook" src="img/facebook.svg" class="img-fluid">
+	  				</a>
+	  			</div>
+	  			<div class="col-4">
+	  				<a href="https://www.youtube.com/channel/UCyUwjZ5-TzFA2E0_BldOqbg">
+	  					<img id="youtube" src="img/youtube.svg" class="img-fluid">
+	  				</a>
+	  			</div>
+	  			<div class="col-4">
+	  				<a href="https://www.instagram.com/radioxochimilco/">
+	  					<img id="instagram" src="img/instagram.svg" class="img-fluid">
+	  				</a>
+	  			</div>
+			</div>
+  		</div>
+  		<div class="container rounded-circle">
+  			<div class="row">
+				<div class="col-12 text-center h1 text-uppercase">ayudanos a crecer</div>
+				<div class="col-12">
+					<form action="https://www.paypal.com/donate" method="post" target="_top">
+					<input type="hidden" name="hosted_button_id" value="QCL39VZK4DYT4" />
+					<input width="170px" class="rounded img-fluid  d-flex m-auto m-0" type='image' src='https://www.paypalobjects.com/es_XC/MX/i/btn/btn_donateCC_LG.gif' border='0' name='submit' title='PayPal - The safer, easier way to pay online!' alt='Donate with PayPal button' />
+					<img alt='' border='0' src='https://www.paypal.com/es_MX/i/scr/pixel.gif' width='1' height='1' />
+				</form>
+				</div>
+			</div>
+  		</div>
+
+  	</aside>
+  		
+	<!-- SECCION PIE DE PÁGINA -->
+	<footer class="pie-de-pagina text-center bg-dark text-white mt-3 py-2">
+	 	<div class="container-fluid">
+		    <p class="m-0">Copyright © 2021. Todos los derechos reservados por: </p>
+		    <p class="m-0">Draky, donas y los demas. </p>
+	 	</div>
+	</footer>
+
+	<!-- modal -->
+	<div class="modal fade" tabindex="-1" id="ventanaModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title text-center">Radio Xochimilco</h5>
+				</div>
+				<div class="modal-body">
+					<p class="display-4 text-center">Iniciar con:</p>
+				</div>
+				<div class="modal-footer">
+					<div class="d-grid gap-2 col-6 mx-auto">
+				 		<button id="loginGoogle" class="btn btn-primary" type="button" data-dismiss="modal">Inicia sesión con Google</button>
+					</div>
+					<div class="d-grid gap-2 col-6 mx-auto">
+				 		<!-- button id="loginFacebook" class="btn btn-primary" type="button">Inicia sesión con Facebook</button -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
+
+	<!-- ARCHIVOS BOOTSTRAP JAVASCRIPT -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+
+		<!-- jquery cdn -->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+		     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+
+	<script src="https://www.gstatic.com/firebasejs/8.2.8/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.2.8/firebase-database.js"></script>
+
+	<script>
+	  // Your web app's Firebase configuration
+	  var firebaseConfig = {
+	    apiKey: "AIzaSyAyihKg62-5fB_ip8oypxKZGkwjqonpPeY",
+	    authDomain: "radioxochimilco-c8256.firebaseapp.com",
+	    projectId: "radioxochimilco-c8256",
+	    storageBucket: "radioxochimilco-c8256.appspot.com",
+	    messagingSenderId: "105735120041",
+	    appId: "1:105735120041:web:a7914fdab072e9c6c0b5b8"
+	  };
+	  // Initialize Firebase
+	  firebase.initializeApp(firebaseConfig);
+	</script>
+
+	<!-- script PERSONALIZADO -->
+	<script type="text/javascript" src="js/app.js"></script>	
+
+	</body>
+</html>

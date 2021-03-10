@@ -1,0 +1,63 @@
+:root {
+  --fondoContainer: white;
+  --colorButton: #64E0FF;
+  --fondoMenu: #64E0FF;
+  --textoColor: #424949; }
+
+body {
+  background: black; }
+
+.container {
+  background: var(--fondoContainer); }
+
+/*
+.container-fluid{
+	background: gray;
+}
+*/
+/*
+.row>*{
+	border: 2px solid red;
+}
+*/
+#menu {
+  background: var(--fondoMenu);
+  color: var(--textoColor); }
+
+#btnYouTube {
+  background: var(--colorButton);
+  color: var(--textoColor);
+  border: white; }
+
+.eslogan {
+  background-image: url(../img/radio.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%; }
+
+.containerEslogan {
+  background-color: rgba(248, 249, 249, 0.5); }
+
+.programas {
+  background-image: url(../img/microfono.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-attachment: fixed; }
+
+.containerProgramas {
+  background-color: rgba(248, 249, 249, 0.5); }
+
+#btnCorreo {
+  background: var(--colorButton);
+  color: var(--textoColor);
+  border: white; }
+
+#facebook {
+  height: 60px; }
+
+#youtube {
+  height: 70px; }
+
+#instagram {
+  height: 60px; }
+
+/*# sourceMappingURL=estilos.css.map */

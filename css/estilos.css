@@ -1,0 +1,89 @@
+:root {
+  --fondoContainer: white;
+  --colorButton: #64E0FF;
+  --fondoMenu: #64E0FF;
+  --textoColor: #424949; }
+
+body {
+  background: #E5E8E8; }
+
+.container {
+  background: var(--fondoContainer); }
+
+/*
+.container-fluid{
+	background: gray;
+}
+*/
+/*
+.row>*{
+	border: 2px solid red;
+}
+*/
+#logo {
+  background: white; }
+
+#menu {
+  background: var(--fondoMenu);
+  color: var(--textoColor); }
+
+#menu ul {
+  list-style: none; }
+
+#menu ul li a {
+  color: var(--textoColor);
+  text-decoration: none; }
+
+#menu ul li a:hover {
+  border-bottom: 2px solid var(--textoColor); }
+
+#btnYouTube {
+  background: var(--colorButton);
+  color: var(--textoColor);
+  border: white; }
+
+.eslogan {
+  background-image: url(../img/radio.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%; }
+
+.containerEslogan {
+  background-color: rgba(248, 249, 249, 0.5); }
+
+#podcast {
+  border: 1px solid #64E0FF; }
+
+#pod {
+  background: var(--fondoMenu); }
+
+.programas {
+  background-image: url(../img/microfono.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-attachment: fixed; }
+
+.containerProgramas {
+  background-color: rgba(248, 249, 249, 0.5); }
+
+#btnCorreo {
+  background: var(--colorButton);
+  color: var(--textoColor);
+  border: white; }
+
+#btnCorreo a {
+  color: var(--textoColor);
+  font-weight: bold; }
+
+#facebook {
+  height: 50px; }
+
+#youtube {
+  height: 60px; }
+
+#instagram {
+  height: 50px; }
+
+footer {
+  font-size: 12px; }
+
+/*# sourceMappingURL=estilos.css.map */
